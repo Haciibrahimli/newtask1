@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewProj</title>
+</head>
+<body>
+    {{min_price.min_value}}
+    {{ avg_price.avg_price }}
+    {{max_price.max_value}}
+    {{count_of_objects}}
+    {% for i in counnt_materials  %}
+    {{i.count_m}}
+    {% endfor %}
+    {% for j in my_prout %}
+    {{j.name}}
+    {% endfor %}
+    {% for a in my_obj %}
+    
+    <img src="{{a.image.url}}" alt="">
+    {% endfor %}
+</body>
+</html>
